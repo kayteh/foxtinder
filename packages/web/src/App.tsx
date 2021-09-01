@@ -10,7 +10,12 @@ function App() {
   return (
     <Container>
       <SelectionBox>
-        <SelectionN>
+        <SelectionN
+          onClick={() => {
+            setCurrentFox(nextFox);
+            setNextFox(currentFox);
+          }}
+        >
           <GoX />
         </SelectionN>
       </SelectionBox>
