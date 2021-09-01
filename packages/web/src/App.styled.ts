@@ -27,9 +27,6 @@ export const SelectionY = styled.div`
   box-shadow: none;
   cursor: pointer;
   transition: all 0.15s ease-in-out;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   :hover {
     box-shadow: 0 4px 1px rgba(0, 0, 0, 0.25);

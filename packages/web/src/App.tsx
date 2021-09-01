@@ -1,5 +1,5 @@
-import { CheckIcon, XIcon } from "@primer/octicons-react";
 import React from "react";
+import { GoCheck, GoX } from "react-icons/go";
 import { Container, SelectionBox, SelectionN, SelectionY } from "./App.styled";
 import { FoxBox } from "./FoxBox";
 
@@ -11,7 +11,7 @@ function App() {
     <Container>
       <SelectionBox>
         <SelectionN>
-          <XIcon size="medium" />
+          <GoX />
         </SelectionN>
       </SelectionBox>
       <FoxBox currentFox={currentFox} nextFox={nextFox} />
@@ -22,7 +22,7 @@ function App() {
             setNextFox(currentFox);
           }}
         >
-          <CheckIcon size="medium" />
+          <GoCheck />
         </SelectionY>
       </SelectionBox>
     </Container>
