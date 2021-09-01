@@ -7,6 +7,9 @@
     "packages/*"
   ],
   "main": "index.js",
+  "scripts": {
+    "start": "yarn workspace fox-tinder-web start"
+  },
   "devDependencies": {
     "eslint": "^7.32.0",
     "prettier": "^2.3.2",
