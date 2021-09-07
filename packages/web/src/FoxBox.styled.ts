@@ -12,6 +12,7 @@ export const HiddenFox = styled.div<{ url: string }>`
   left: -10000px;
   width: 1px;
   height: 1px;
+  max-width: 65vw;
   background-image: url(${(props) => props.url});
 `;
 

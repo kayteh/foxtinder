@@ -8,7 +8,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "start": "yarn workspace fox-tinder-web start"
+    "start": "yarn workspaces run start"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
